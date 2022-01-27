@@ -7,7 +7,7 @@ import {GifExpertApp} from './GifExpertApp'
 
 ReactDOM.render(
 
-    <GifExpertApp />,
+    <GifExpertApp defaultCategories={['One Punch']}/>,
 
   document.getElementById('root')
 );
